@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {useState} from 'react'
 import './App.css';
 import Chai from './chai';
@@ -25,26 +26,26 @@ const addvalue = () =>{
 =======
 import logo from './logo.svg';
 import './App.css';
+=======
+>>>>>>> bef65b0 (initial commit)
 
+import './App.css';
+import Card from './Card'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <h1 className="text-1xl font-bold underline mycenter">
+      Hello world!
+    </h1>
+      <div className='mycenter'>
+      <Card username={"aarush bhai"} btntext={"visitme"}/>
+      <Card username={"rahul bhai"} btntext={"showme" }/>
     </div>
+<<<<<<< HEAD
 >>>>>>> 7ec818b (Initialize project using Create React App)
+=======
+    </>
+>>>>>>> bef65b0 (initial commit)
   );
 }
 
